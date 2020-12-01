@@ -112,8 +112,10 @@ There are the following 13 benchmarks:
         ./build/ALPHA/gem5.opt ./configs/example/fs.py -n 4 --script=./benchmarks/ferret_4c_simdev.rcS  --caches --l2cache -F 5000000000 \
         --mem-type=SimpleMemory --cpu-type=AtomicSimpleCPU \
         --kernel=full_system_images/system/binaries/vmlinux
-
-
+       -------------------------------------------------------------------------------------------------------------------------------------
+        
+      ./build/ALPHA/gem5.opt configs/example/fs.py --cpu-type=TimingSimpleCPU --script=/home/amirreza/benchmarks/ferret_4c_simdev.rcS --num-cpus=2 --kernel=/home/amirreza/full_system_images/system/binaries/vmlinux --disk-image=/home/amirreza/full_system_images/system/disks/linux-parsec-2-1-m5-with-test-inputs.img
+             
 
 
 
