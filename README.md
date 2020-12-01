@@ -106,6 +106,16 @@ There are the following 13 benchmarks:
  
      telnet localhost 3456  
 
+    
+ 8- my config
+ 
+        ./build/ALPHA/gem5.opt ./configs/example/fs.py -n 4 --script=./benchmarks/ferret_4c_simdev.rcS  --caches --l2cache -F 5000000000 \
+        --mem-type=SimpleMemory --cpu-type=AtomicSimpleCPU \
+        --kernel=full_system_images/system/binaries/vmlinux
+
+
+
+
 
 ### All Translate From https://github.com/Pfzuo/pfzuo.github.io/blob/master/_posts/GEM5/2016-6-6-Configure%20and%20run%20parsec%202.1%20benchmark%20in%20GEM5.md ###
 
