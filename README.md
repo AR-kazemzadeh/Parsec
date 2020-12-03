@@ -1,4 +1,4 @@
-The last article talked about how to run PARSEC Benchmark alone in the Linux system. This article describes how to configure and run PARSEC Benchmark in the GEM5 simulator (taking the ARPHA architecture as an example). PARSEC Benchmark needs to run in full system mode in GEM5, and its configuration method is similar to that in Section 2.4 of the previous article. Related tutorials can refer to: http://www.m5sim.org/PARSEC_benchmarks.
+The last article talked about how to run PARSEC Benchmark alone in the Linux system. This article describes how to configure and run PARSEC Benchmark in the GEM5 simulator (taking the ARPHA architecture as an example). PARSEC Benchmark needs to run in full system mode in GEM5, and its configuration method is similar to that in Section 2.4 of the previous article. Related tutorials can refer to: [here](http://www.m5sim.org/PARSEC_benchmarks).
 
   1- First create a new folder to store the disk image of PARSEC Benchmark.
   
