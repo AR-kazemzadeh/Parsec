@@ -55,7 +55,7 @@ before fixing:
      
 After modification:
 
-       path = [ ’/dist/m5/system’, ’/home/full_system_images/system’ ]
+       path = [ ’/dist/m5/system’, ’/home/USER/full_system_images/system’ ]
 
 Open Benchmarks.py and modify the image file name:
 
